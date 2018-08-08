@@ -1,5 +1,4 @@
 const API_KEY  = "5357d0ee7dd6ec614e764228b9249e29"
-const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?`
 
 function handleFormSubmit(event) {
   event.preventDefault();
@@ -14,7 +13,6 @@ function getWeatherFromApi(city) {
 }
 
 function displayWeather(weatherJson) {
-  debugger;
   let temp = weatherJson.main.temp
   let tempRow = document.getElementById("temp")
   tempRow.innerHTML = temp
@@ -29,8 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
 // $("#cityForm").on("submit", callBack)
  
 })
-
-// api.openweathermap.org/blah/weather?q=Londing&APPID=my-app-id&units=imperial
 
 
 
