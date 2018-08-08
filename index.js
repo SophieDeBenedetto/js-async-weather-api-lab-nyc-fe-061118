@@ -4,7 +4,7 @@ const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?`
 function handleFormSubmit(event) {
  debugger;
  let city = document.getElementById("city").value
-  getWeatherFromApi(city)
+ getWeatherFromApi(city)
  
  // next I need to send a web request to this URL: api.openweathermap.org/data/2.5/weather?q=London
  // I need to substitute "London" for whatever city the user filled out. 
