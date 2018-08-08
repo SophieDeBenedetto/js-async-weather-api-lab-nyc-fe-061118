@@ -30,6 +30,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-"https://api.openweathermap.org/data/2.5/weather?q=London&APIKEY=as;lkdjfa;lsdfjlaksdjfalsdjf"
-
-
