@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
  
 })
 
+// api.openweathermap.org/blah/weather?q=Londing&APPID=my-app-id&units=imperial
+
 
 
 
