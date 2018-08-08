@@ -8,7 +8,7 @@ function handleFormSubmit(event) {
 
 function getWeatherFromApi(city) {
   debugger;
-  fetch("")
+  fetch("api.openweathermap.org/data/2.5/weather?q=" + city)
 }
 
 
