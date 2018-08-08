@@ -15,6 +15,7 @@ function getWeatherFromApi(city) {
 
 function displayWeather(weatherJson) {
   debugger;
+  let temp = weatherJson.main.temp
 }
 
 
