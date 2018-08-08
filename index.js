@@ -11,7 +11,7 @@ function handleFormSubmit(event) {
 }
 
 function getWeatherFromApi(city) {
-  // make the web request
+  debugger;
 }
 
 
