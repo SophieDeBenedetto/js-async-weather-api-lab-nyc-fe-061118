@@ -29,6 +29,7 @@ function createChart(json) {
 document.addEventListener('DOMContentLoaded', function() {
  // add the event listener
  let cityForm = document.getElementById("cityForm");
+ cityForm.addEventListener("submit", )
 // $("#cityForm").on("submit", callBack)
  
 })
