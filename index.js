@@ -8,6 +8,7 @@ function handleFormSubmit(event) {
 
 function getWeatherFromApi(city) {
   debugger;
+  fetch("")
 }
 
 
